@@ -1,0 +1,11 @@
+@NEWMARK_HostAddress = http://localhost:5191
+
+GET {{NEWMARK_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{NEWMARK_HostAddress}}/todos/1
+Accept: application/json
+
+###
